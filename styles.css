@@ -1,1 +1,19 @@
 /* your code */
+thead{
+	background-color:blue;
+	border:none;
+	color:white;
+}
+tbody{
+	background-color:black;
+	color:white;
+	font:10px;
+	font-style:sandybrown;
+}
+th:nth-child(2n+1){
+	background-color:green
+}
+td:nth-child(2n){
+	background-color:lightcyan;
+	color:black
+}
